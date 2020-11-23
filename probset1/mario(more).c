@@ -11,7 +11,8 @@ int main(void)
 {
 int height;
 do {
-height = get_int("Height: ");
+printf("Height : ");
+scanf("%d",&height);
 }while((height<1)||(height>8));
 
 int j; 
