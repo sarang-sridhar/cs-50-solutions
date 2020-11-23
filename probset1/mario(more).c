@@ -1,4 +1,5 @@
- #include<stdio.h>
+#include<stdio.h>
+#include<cs50.h>
 
 void space(int p)
 {
@@ -10,8 +11,7 @@ int main(void)
 {
 int height;
 do {
-printf("height: ");
-scanf("%d",&height);
+height = get_int("Height: ");
 }while((height<1)||(height>8));
 
 int j; 
